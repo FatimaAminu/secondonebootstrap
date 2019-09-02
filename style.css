@@ -1,0 +1,74 @@
+*{
+    padding:1px;
+}
+.newtop{
+    background-color: #55405F;
+    color: white;
+    padding-bottom: 0px;
+}
+.newtop ul{
+    list-style-type: none;
+    text-align: right;
+}
+.newtop li{
+    display: inline;
+}
+.nested{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-auto-rows: 100px; */
+    grid-gap: 1em;
+    padding: 1em;
+    background-color: #222222;
+    margin-top: 20px;
+}
+.nested h3{
+    color: white;
+     
+}
+/* .nav{
+    background-color: #544460;
+    padding: 0px;
+    text-align: end;
+}
+.nav li{
+    list-style-type: none;
+    display: inline;
+    text-align: right;
+    color: white;
+} */
+/* .nav ul{
+    text-align: right;
+} */
+.text{
+    text-align: center;
+    padding-top: 40px;
+}
+.card li{
+    list-style-type: none;
+    display: inline;
+    float: right;
+    padding-right: 18px;
+}
+.newer p{
+    color: black;
+}
+.company p{
+    color: black;
+}
+.textpurple{
+    color: #544460;
+    padding-top: 2px;
+}
+hr{
+    margin: 0px;
+    color: #222222;
+}
+.footer{
+    color: white;
+    background-color: #222222;
+    padding: 15px;
+}
+.footer-right{
+    float: right;
+}
